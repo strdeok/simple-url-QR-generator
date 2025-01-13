@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.button {
+    color: white;
+    background-color: #007FFF;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
