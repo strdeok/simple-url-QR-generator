@@ -8,12 +8,12 @@ export default function QRGenrator() {
   const { url } = setUrl();
 
   const downQR = () => {
-    var node = document.getElementById("QRcode");
+    const node = document.getElementById("QRcode") as HTMLElement;
 
     htmlToImage
       .toPng(node)
       .then(function (dataUrl) {
-        var img = new Image();
+        const img = new Image();
         img.src = dataUrl;
         document.body.appendChild(img);
       })

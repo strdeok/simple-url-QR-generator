@@ -40,7 +40,7 @@ export default function Home() {
         }}
       />
       <button type="submit" className={style.button}>
-        모달 창 띄우기
+        QR 코드 생성하기
       </button>
     </form>
   );
